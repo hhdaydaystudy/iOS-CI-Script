@@ -9,7 +9,7 @@ class EnvEnum(Enum):
     SCRIPT_DIR_NAME = 'scripts'  # 存放脚本项目的目录名称
 
     # 自定义环境变量
-    #CONF_FILE_NAME = os.getenv('CONF_FILE_NAME')  # 配置文件的名称
+    CONF_FILE_NAME = os.getenv('CONF_FILE_NAME')  # 配置文件的名称
     CONFIGURATION = os.getenv('CONFIGURATIONS')  # app configuration
     APP_VERSION = os.getenv('APP_VERSION')  # app 版本号
     WORKSPACE_URL = os.getenv('WORKSPACE_URL')  # 工作空间 URL，需从 Jenkins 上获取 workspace url
