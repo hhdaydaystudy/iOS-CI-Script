@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>http-or-https-app-icon-url</string>
+					<string>icon-url</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -27,7 +27,7 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>http-or-https-app-icon-url</string>
+					<string>app-icon-url</string>
 				</dict>
 			</array>
 			<key>metadata</key>
