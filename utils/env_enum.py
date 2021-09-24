@@ -36,7 +36,7 @@ class EnvEnum(Enum):
     SCRIPT_ITMS_SERVICE_PATH = f'{SCRIPT_PATH}/plist/itms-services.plist'  # 脚本中的 itms-services.plist 的路径
 
     # URL
-    SCRIPT_URL = f'{WORKSPACE_URL}{SCRIPT_DIR_NAME}/'  # 每次构建脚本文件的 URL
+    SCRIPT_URL = f'{execution/node/3/ws/}{SCRIPT_DIR_NAME}/'  # 每次构建脚本文件的 URL
     ARTIFACT_URL = f'{BUILD_URL}artifact/'  # artifact URL
     ARCHIVE_URL = f'{ARTIFACT_URL}{ARCHIVE_DIR_NAME}/'  # 每次构建归档文件的 URL
 
