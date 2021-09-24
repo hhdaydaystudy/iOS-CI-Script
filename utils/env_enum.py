@@ -12,7 +12,7 @@ class EnvEnum(Enum):
     CONF_FILE_NAME = os.getenv('CONF_FILE_NAME')  # 配置文件的名称
     CONFIGURATION = os.getenv('CONFIGURATIONS')  # app configuration
     APP_VERSION = os.getenv('APP_VERSION')  # app 版本号
-    WORKSPACE_URL = f'execution/node/3/ws/'  # 工作空间 URL，需从 Jenkins 上获取 workspace url
+    WORKSPACE_URL = f'http://192.168.3.5:8080/job/iOS-ci-python/lastSuccessfulBuild/execution/node/3/ws/'  # 工作空间 URL，需从 Jenkins 上获取 workspace url
 
     # iTunes Connect 配置
     UPLOAD_ITUNES_CONNECT = os.getenv('UPLOAD_ITUNES_CONNECT', 'false')  # 上传 iTunes Connect，默认 false
